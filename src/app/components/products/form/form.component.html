@@ -1,0 +1,15 @@
+<div class="d-flex justify-content-center align-items-center">
+  <div class="formProduct p-5 mt-3 mb-3">
+    <form (ngSubmit)="goToProduct()">
+      <input type="text" name="name" [(ngModel)]="product.name"    class="form-control mb-2" placeholder="Enter Name" required>
+      <input type="text" name="price" [(ngModel)]="product.price"   class="form-control mb-2" placeholder="Enter Price" required>
+      <input type="text" name="quantity" [(ngModel)]="product.quantity"    class="form-control mb-2" placeholder="Enter Quantity" required>
+      <input type="text" name="color" [(ngModel)]="product.color"         class="form-control mb-2" placeholder="Enter Color" required>
+      <input type="text" name="country" [(ngModel)]="product.country"    class="form-control mb-2" placeholder="Enter Country" required>
+      <input type="text" name="image"  [(ngModel)]="product.imge" placeholder="Image" class="form-control">
+      <button type="submit" class="btn btn-primary mt-2">Send Data</button>
+    </form>
+  </div>
+</div>
+
+

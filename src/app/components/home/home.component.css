@@ -1,0 +1,116 @@
+
+.home{
+background-color: #f3f2ee;
+background-size:100% ;
+background-position: center;
+background-repeat: no-repeat;
+height: 65vh;
+}
+img{
+  width: 300px;
+}
+@media (max-width:768px){
+  .main img{
+  display: none;
+  }
+}
+h1{
+  font-family: 'Times New Roman', Times, serif;
+}
+p {
+  font-size: 18px;
+  color: #666;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+  font-size: 24px;
+  color: #f00;
+  margin-bottom: 15px;
+}
+
+.column {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  transition: .5s;
+  padding: 20px;
+}
+
+.column img {
+  width: 200px;
+  height: 150px;
+  object-fit: contain;
+}
+/* { */
+  /* width: 160px;
+  height: 125px;
+    object-fit: contain; */
+
+#chair,#img6{
+  width: 170px;
+  height: 150px;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  color: #333;
+  font-weight: bold;
+}
+.column:hover {
+  transform: scale(1.05);
+}
+
+.column h2 {
+  margin-top: 10px;
+  color: #333;
+}
+
+.column p {
+  color: #666;
+}
+
+.column button {
+  cursor: pointer;
+}
+.why{
+  background-color:  #f8f8f8;
+  padding: 20px;
+}
+.why h2 {
+  color: #333;
+}
+.why p {
+  color: #666;
+}
+.why img{
+  width: 50px;
+}
+
+
+.ga svg{
+  width: 40px;
+}
+.ga{
+  box-sizing: border-box;
+  background-color:#f8f8f8;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  height: 110px;
+  cursor: pointer;
+  color:#434;
+}

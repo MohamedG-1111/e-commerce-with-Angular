@@ -1,0 +1,37 @@
+
+<nav class="navbar navbar-expand-lg position-sticky">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="https://m.media-amazon.com/images/G/01/gc/designs/livepreview/amazon_dkblue_noto_email_v2016_us-main._CB468775337_.png" alt="Brand Logo" class="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav m-auto">
+        <li class="nav-item">
+          <a routerLink="/home" class="nav-link p-lg-3"  aria-current="page">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-lg-3" routerLink="/products">Products</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a  routerLink="/contact" class="nav-link p-lg-3">Contact Us</a>
+        </li>
+      </ul>
+      <div class="search ps-3 pe-3 d-none d-md-block">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+        </svg>
+      </div>
+      <button class="btn btn-danger" (click)="Home()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0z"/>
+          <path fill-rule="evenodd" d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708z"/>
+        </svg>
+      </button>
+      <button type="button" *ngIf="lo" (click)="gotoLoginPage()" class="btn btn-primary ms-3 mt-2 mt-lg-0">Login</button>
+      <div *ngIf="userName" class="ms-3 mt-2 mt-lg-0 text-light">{{ userName }}</div>
+    </div>
+  </div>
+</nav>

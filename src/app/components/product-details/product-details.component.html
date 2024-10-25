@@ -1,0 +1,22 @@
+<div class="product-details">
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div *ngIf="product" class="col-md-8  d-flex align-items-center">
+        <div class="card shadow-sm w-100">
+          <div class="card-body">
+            <div class="info pe-4 ">
+              <h2 class="card-title">Name: {{product.name}}</h2>
+              <h5 class="card-subtitle mb-3 text-muted">Price: {{product.price}}</h5>
+              <h5 class="card-subtitle mb-3 text-muted">Quantity: {{product.quantity}}</h5>
+              <h5 class="card-subtitle mb-3 text-muted">Made in: {{product.country}}</h5>
+              <h5 class="card-subtitle mb-3 text-muted">Color: {{product.color}}</h5>
+            </div>
+            <div class="img ms-auto">
+              <img src="./Imgs/{{product.imge}}" alt="{{product.name}}" class="img-fluid rounded">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

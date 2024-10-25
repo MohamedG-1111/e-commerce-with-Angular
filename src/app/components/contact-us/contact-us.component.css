@@ -1,0 +1,18 @@
+.contact{
+    height: 72vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    background-image: url("../../../../public/Imgs/image\ \(1\).png") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  svg{
+    width: 100px;
+    height: 50px;
+    color:#0aaeee;
+    margin: 10px;
+  }

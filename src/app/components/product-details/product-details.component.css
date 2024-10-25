@@ -1,0 +1,12 @@
+img{
+  width:250px
+}
+.container{
+  height: 70vh;
+}
+.card-body{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f0f0f0
+}

@@ -1,0 +1,22 @@
+
+
+.error-page {
+  height: 72vh;
+  padding: 20px;
+  text-align: center;
+  background-color: #CCC;
+  color: #333333;
+
+}
+.error-content {
+  padding: 30px;
+
+}
+.error-content h1 {
+  color: red;
+}
+
+.error-content p {
+  color: #333333;
+}
+

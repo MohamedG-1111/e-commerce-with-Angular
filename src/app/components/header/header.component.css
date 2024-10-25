@@ -1,0 +1,64 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  /* background-color:rgba(17, 34, 51, 0.756); */
+background-color:   #333;
+}
+
+.navbar-nav .nav-item a {
+  color: #fff;
+  font-size: 19px;
+  font-family:Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.navbar-nav .nav-item a.active,
+.navbar-nav .nav-item a:focus,
+.navbar-nav .nav-item a:hover {
+  color: rgb(21, 250, 21);
+}
+
+.navbar-brand img.logo {
+  height: 40px;
+}
+
+.search {
+  border-left: 1px solid rgb(21, 250, 21);
+}
+.search svg{
+  width: 27px;
+  color:#ffffff;
+}
+
+
+.navbar-toggler {
+  color: white;
+  border-width: 1px;
+}
+
+.navbar-toggler[aria-expanded="true"] {
+  border-color: rgb(21, 250, 21);
+}
+svg{
+
+  width:30px;
+  height: 30px;
+  cursor: pointer;
+}
+img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.navbar-toggler {
+  color: white;
+}
+.navbar .navbar-toggler {
+  color: white;
+}
+h3{
+  color:white;
+  font-size: 20px;
+}

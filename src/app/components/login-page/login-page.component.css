@@ -1,0 +1,41 @@
+.login {
+  background-image: url("../../../../public/Imgs/img1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vh {
+  height: 74vh;
+}
+
+.input-group {
+  border-radius: 50px;
+  margin-bottom: 15px;
+}
+
+
+.input-group .form-control:focus {
+  box-shadow: none;
+  border-color: #ced4da;
+}
+
+.input-group .input-group-text svg {
+  color: blue;
+}
+
+.under {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  color: #2e5fff;
+  font-size: 15px;
+}
+
+.under .one input {
+  margin-left: 5px;
+}
+
+.under p {
+  cursor: pointer;
+}

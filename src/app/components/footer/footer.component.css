@@ -1,0 +1,35 @@
+.footer{
+ display:flex;
+ justify-content: space-around;
+ /* background-color: #626c76; */
+background-color:  #333;
+ padding: 10px;
+}
+ul{
+  list-style: none;
+}
+ul li a{
+  text-decoration: none;
+  color:rgba(255, 255, 255, 0.87);
+  cursor: pointer;
+  transition: .5s;
+}
+ul li a:hover{
+  margin: 5px 0 0 5px;
+}
+.social-links{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+h4{
+ color: rgba(255, 255, 255, 0.773);
+
+}
+.social-links svg{
+  width: 40px;
+  height: 30px;
+  color: rgba(255, 255, 255, 0.671);
+  cursor:pointer;
+}
+
